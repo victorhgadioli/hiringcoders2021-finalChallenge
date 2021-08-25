@@ -1,11 +1,14 @@
 {
-  "vendor": "vtex",
-  "name": "minimumtheme",
+  "vendor": "hiringcoders202125",
+  "name": "ACCT-SQUAD25",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x",
+    "react":"3.x",
+    "messages": "1.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
