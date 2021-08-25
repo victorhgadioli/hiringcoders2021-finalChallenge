@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202125",
-  "name": "ACCT-SQUAD25",
+  "name": "acct",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
