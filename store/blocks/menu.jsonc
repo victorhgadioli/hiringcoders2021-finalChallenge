@@ -1,0 +1,156 @@
+{
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ],
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "inicio"
+        }
+    },
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#inicio",
+            "tab-list.item#acct",
+            "tab-list.item#oquefazemos",
+            "tab-list.item#blog",
+            "tab-list.item#parceiros",
+            "tab-list.item#contato"
+        ]
+    },
+
+    "tab-list.item#inicio": {
+        "props": {
+            "tabId": "inicio",
+            "label": "INICIO"
+        }
+    },
+
+    "tab-list.item#acct": {
+        "props": {
+            "tabId": "acct",
+            "label": "ACCT"
+        }
+    },
+
+    "tab-list.item#oquefazemos": {
+        "props": {
+            "tabId": "oquefazemos",
+            "label": "O QUE FAZEMOS"
+        }
+    },
+
+    "tab-list.item#blog": {
+        "props": {
+            "tabId": "blog",
+            "label": "BLOG"
+        }
+    },
+
+    "tab-list.item#parceiros": {
+        "props": {
+            "tabId": "parceiros",
+            "label": "PARCEIROS"
+        }
+    },
+
+    "tab-list.item#contato": {
+        "props": {
+            "tabId": "contato",
+            "label": "CONTATO"
+        }
+    },
+    
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#inicio",
+            "tab-content.item#acct",
+            "tab-content.item#oquefazemos",
+            "tab-content.item#blog",
+            "tab-content.item#parceiros",
+            "tab-content.item#contato"
+        ]
+    },
+    "tab-content.item#inicio": {
+        "children": [
+            "list-context.product-list#upmedal"
+        ],
+        "props": {
+            "tabId": "inicio"
+        }
+    },
+    "list-context.product-list#upmedal": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#products"
+        ],
+        "props": {
+            "category": "1",
+            "hideUnavailableItems": true,
+            "blockClass": "products"
+        }
+    },
+    "slider-layout#products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "products",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        }
+    },
+
+    "tab-content.item#acct": {
+        "children": [
+            
+        ],
+        "props": {
+            "tabId": "acct"
+        }
+    },
+
+    "tab-content.item#oquefazemos": {
+        "children": [
+            
+        ],
+        "props": {
+            "tabId": "oquefazemos"
+        }
+    },
+
+    "tab-content.item#blog": {
+        "children": [
+            "list-context.product-list#upmedal"
+        ],
+        "props": {
+            "tabId": "blog"
+        }
+    },
+
+    "tab-content.item#parceiros": {
+        "children": [
+            "list-context.product-list#upmedal"
+        ],
+        "props": {
+            "tabId": "parceiros"
+        }
+    },
+    "tab-content.item#contato": {
+        "children": [
+            "list-context.product-list#upmedal"
+        ],
+        "props": {
+            "tabId": "contato"
+        }
+    }
+}

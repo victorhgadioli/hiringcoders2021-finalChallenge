@@ -27,10 +27,12 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
+      "tab-layout#home",
+      //"search-bar",
       "locale-switcher",
       "login",
       "minicart.v2"
+      
     ]
   },
   "flex-layout.col#spacer": {
@@ -48,7 +50,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "assets/logo-acct-black.svg",
       "width": "80"
     }
   },
@@ -63,6 +65,7 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
+      "tab-layout#home",
       "login",
       "minicart.v2"
     ],
