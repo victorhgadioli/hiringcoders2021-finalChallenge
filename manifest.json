@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202125",
-  "name": "acct",
+  "name": "leadvtex25",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -8,7 +8,8 @@
     "docs": "0.x",
     "assets": "0.x",
     "react": "3.x",
-    "messages": "1.x"
+    "messages": "1.x",
+    "admin": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"

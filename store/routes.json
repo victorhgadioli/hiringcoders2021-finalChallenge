@@ -1,2 +1,5 @@
 {
+    "store.custom#showleads": {
+        "path": "/showleads"
+      }
 }

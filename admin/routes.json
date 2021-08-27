@@ -1,0 +1,6 @@
+{
+    "admin.app.myLeads": {
+      "component": "myLeads",
+      "path": "/admin/app/myLeads"
+    }
+  }

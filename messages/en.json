@@ -1,4 +1,4 @@
 {
-  "editor.countdown.title": "Countdown",
-  "editor.countdown.description": "Countdown component"
+  "myLeads.navigation.label": "My Leads",
+  "myLeads.navigation.search.kws": "leads, api"
 }
