@@ -23,7 +23,7 @@
     "tab-list.item#inicio": {
         "props": {
             "tabId": "inicio",
-            "label": "INICIO"
+            "label": "INÍCIO"
         }
     },
 

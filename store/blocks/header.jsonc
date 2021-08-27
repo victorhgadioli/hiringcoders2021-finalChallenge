@@ -49,9 +49,9 @@
   "logo": {
     "props": {
       "title": "Logo",
-      "href": "/",
+      "href": "logo",
       "url": "assets/logo-acct-black.svg",
-      "width": "80"
+      "width": "150"
     }
   },
   "header-layout.mobile": {
