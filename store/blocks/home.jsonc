@@ -1,15 +1,81 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
+      "slider-layout#home",
+      "info-card",
       "rich-text"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
+
+  //carrossel com divulgações
+
+  "slider-layout#home": {
+    "children": ["info-card#quadrante", "info-card#tecnologia", "info-card#engenharia", "info-card#desenvolvimento"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true 
+      },
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel",
+          "delay": 2
+      }
+    },
+
+  "info-card#quadrante": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/slider/cache/b3d783e1026a452a17b0d42642af3418/quadrante_vtex_2021.webp",
+      "isFullModeStyle": true,
+      "headline": "Somos líder no Quadrante VTEX",
+      "callToActionText": "Saiba mais",
+      "textPosition": "left"
+    }
+  },
+
+  "info-card#tecnologia": {
+    "props": {
+      "imageUrl": "assets/slider/slider-home-technology.jpg",
+      "isFullModeStyle": true,
+      "headline": "Somos líder no Quadrante VTEX",
+      "subhead":  "Mais de 100 colaboradores certificados. Temos os clientes mais relevantes da VTEX. Conteúdo técnico criado em parceria com a VTEX",
+      "callToActionText": "Saiba mais",
+      "textPosition": "left"
+    }
+  },
+
+  "info-card#engenharia": {
+    "props": {
+      "imageUrl": "assets/slider/slider-home-engineering.jpg",
+      "isFullModeStyle": true,
+      "headline": "Engenharia de E-Commerce_",
+      "subhead": "Equipes de alto desempenho entregando algumas das soluções de e-commerce mais complexas do mundo.",
+      "callToActionText": "Saiba mais",
+      "textPosition": "left"
+    }
+  },
+  "info-card#desenvolvimento": {
+    "props": {
+      "imageUrl": "assets/slider/slider-home-product.jpg",
+      "isFullModeStyle": true,
+      "headline": "Somos líder no Quadrante VTEX",
+      "callToActionText": "Saiba mais",
+      "textPosition": "left"
+    }
+  },
+
+  //Texto geral
+
+  "rich-text": {
+    "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "text": "**Buscamos constantemente a liderança global quando se trata de soluções para comércio digital.**\nQuando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.*"
     }
-  }
+}
 }
