@@ -23,7 +23,7 @@
         "children": [
           "flex-layout.col#logo-desktop",
           "vtex.menu@2.x:menu#menu-items",
-         // "search-bar"
+         "search-bar",
           "flex-layout.row#minicart-and-login"
         ]
       },
