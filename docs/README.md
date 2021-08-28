@@ -7,10 +7,10 @@
 </h3>
 
 <p align="center">
-  <a href="#sobre o desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#iniciando">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#funcionalidades">Funcionalidades</a>
+  <a href="#-sobre o desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-iniciando">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-funcionalidades">Funcionalidades</a>
 </p>
 
 ## 👨🏻‍💻 Sobre o desafio
@@ -22,8 +22,8 @@
   - [Corebiz](https://www.corebiz.ag/pt/)
 </p>
 
-## A temática proposta para o Grupo 25 foi a ACCT</br>
-### Front-End
+### A temática proposta para o Grupo 25 foi a ACCT</br>
+#### Front-End
 Neste front-end teremos a temática da ACCT, com logo, cores, a missão e valores da ACCT em uma página de **sobre**
 - Nesta página de **Sobre** mostrar as virtudes do serviço da ACCT
 - https://acct.global/pt/sobre-nos/
