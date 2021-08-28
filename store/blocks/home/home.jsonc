@@ -2,9 +2,9 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banner-home",
-      "flex-layout.row#departaments"
-      //"flex-layout.row#brand"
-      //"flex-layout.row#novo-na-acct"
+      "flex-layout.row#departaments",
+      "flex-layout.row#brand",
+      "flex-layout.row#novo-na-acct"
     ]
   }
 }

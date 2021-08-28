@@ -58,7 +58,7 @@
   "flex-layout.col#menu-footer-items-2": {
     "children": [
       "image#logo",
-      "rich-text#whatsapp",
+      "social-networks",
       "rich-text#email"
     ]
   },
@@ -68,10 +68,13 @@
       "maxWidth": 176
     }
   },
-  "rich-text#whatsapp": {
+  "social-networks": {
     "props": {
-      "text": "11 707070",
-      "blockClass": "rich-whatsapp"
+      "socialNetworks": [
+        { "url": "https://www.linkedin.com/company/acctglobal/", "name": "LinkedIn" },
+        { "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA", "name": "Youtube" },
+        { "url": "https://www.instagram.com/acct.global", "name": "Instagram" }
+      ]
     }
   },
   "rich-text#email": {

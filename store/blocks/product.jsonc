@@ -34,7 +34,8 @@
       "buy-button",
       "product-separator",
       "product-quantity",
-      "shipping-simulator"
+      "shipping-simulator",
+      "share"
     ]
   }
 }

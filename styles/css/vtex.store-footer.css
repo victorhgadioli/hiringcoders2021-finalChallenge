@@ -1,0 +1,9 @@
+.socialNetworksContainer {
+  width: 400px;
+  margin-left: 12%;
+}
+
+.socialNetworkImage {
+  color: #ffffff;
+  border-radius: 35px;
+}

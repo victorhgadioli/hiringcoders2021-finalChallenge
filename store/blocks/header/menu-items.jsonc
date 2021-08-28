@@ -16,14 +16,14 @@
   "menu-item#inicio": {
     "props": {
       "type": "custom",
-      "blockClass": "main-menu-item",
+      "blockClass": "main-menu-item-inicio",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Início",
-        "text": "inicio"
+        "text": "início"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#inicio"]

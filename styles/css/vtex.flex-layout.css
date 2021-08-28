@@ -22,7 +22,7 @@
 /* footer */
 
 .flexRow--footer-row {
-  margin-top: 80px;
+  margin-top: 0px;
   background-color: #f8f8f8;
   padding: 70px 0 35px;
 }
@@ -67,6 +67,7 @@
 
 .flexCol--menu-items-footer {
   background-color: #f8f8f8;
+  margin-right: 10%;
 }
 
 

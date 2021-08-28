@@ -10,7 +10,7 @@
         "description": "something something"
       },
       {
-        "image": "assets/slides/Slide1.png",
+        "image": "assets/slides/Slide2.png",
         "description": "something something"
       }
     ]
@@ -19,6 +19,10 @@
 
 "slider-layout#demo-images": {
   "props": {
+    "autoplay": {
+      "timeout": 7000,
+      "stopOnHover": true
+    },
     "itemsPerPage": {
       "desktop": 1,
       "tablet": 1,
