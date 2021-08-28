@@ -12,7 +12,6 @@
     "stack-layout#header-about-us": {
         "props": {
             "blockClass": "header-about-us"
-            // "zIndexOffset": "-1"
         },
         "children": [
             "media#cover-header-about-us",
@@ -27,7 +26,7 @@
     "rich-text#title-header-about-us": {
         "props": {
             "text": "# Sobre Nós_",
-            "colorText": "warning--faded",
+            "textColor": "action-secondary",
             "blockClass": "title-header-about-us"
         }
     }
