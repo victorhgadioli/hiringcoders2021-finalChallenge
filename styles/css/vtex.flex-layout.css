@@ -23,7 +23,7 @@
 
 .flexRow--footer-row {
   margin-top: 80px;
-  border-top: 10px solid #fcc200;
+  background-color: #f8f8f8;
   padding: 70px 0 35px;
 }
 
@@ -56,9 +56,17 @@
   width: 100% !important;
 }
 
+.flexColChild {
+ background-color: #f8f8f8;
+}
+
 .flexColChild--menu-items-footer {
   height: auto !important;
   margin-bottom: 10px;
+}
+
+.flexCol--menu-items-footer {
+  background-color: #f8f8f8;
 }
 
 

@@ -40,43 +40,27 @@
       "flex-layout.col#menu-footer-items-1",
       "flex-layout.col#menu-footer-items-2",
       "flex-layout.col#menu-footer-items-3",
-      "flex-layout.col#menu-footer-items-4"
+      "flex-layout.col#menu-footer-items-4",
+      "flex-layout.col#menu-footer-items-5"
     ]
   },
   "flex-layout.col#menu-footer-items-1": {
-    "props": {
-      "blockClass": "menu-items-footer"
-    },
     "children": [
-      "menu-item#Brasil",
-      "menu-item#sou-lojista",
-      "menu-item#sou-representante",
-      "menu-item#sou-fornecedor"
+      "image#gptw"
     ]
+  },
+  "image#gptw": {
+    "props": {
+      "src": "assets/footer/selo-gptw-2021.svg",
+      "maxWidth": 122
+    }
   },
   "flex-layout.col#menu-footer-items-2": {
-    "props": {
-      "blockClass": "menu-items-footer"
-    },
     "children": [
-      "menu-item#Espanha",
-      "menu-item#compre-por-marca",
-      "menu-item#termos-e-condicoes",
-      "menu-item#privacidade-e-seguranca"
+      "image#logo",
+      "rich-text#whatsapp",
+      "rich-text#email"
     ]
-  },
-  "flex-layout.col#menu-footer-items-3": {
-    "props": {
-      "blockClass": "menu-items-footer"
-    },
-    "children": [
-      "menu-item#login",
-      "menu-item#contato",
-      "menu-item#perguntas-frequentes"
-    ]
-  },
-  "flex-layout.col#menu-footer-items-4": {
-    "children": ["image#logo", "rich-text#whatsapp", "rich-text#email"]
   },
   "image#logo": {
     "props": {
@@ -96,6 +80,37 @@
       "text": "contato@acct.com.br"
     }
   },
+  "flex-layout.col#menu-footer-items-3": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#Brasil",
+      "rich-text#Brasil-end-1",
+      "rich-text#Brasil-end-2"
+    ]
+  },
+  "flex-layout.col#menu-footer-items-4": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#Espanha",
+      "rich-text#Espanha-end"
+    ]
+  },
+  "flex-layout.col#menu-footer-items-5": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#EstadosUnidos",
+      "rich-text#EstadosUnidos-end"
+    ]
+  },
+
+
+
   "flex-layout.row#partnes-footer": {
     "props": {
       "blockClass": "footer-partnes"

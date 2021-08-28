@@ -1,145 +1,58 @@
 {
-  "menu-item#Brasil": {
+  "rich-text#Brasil": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Brasil",
-        "text": "BRASIL"
-      }
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "BRASIL"
     }
   },
-  "menu-item#sou-lojista": {
+  "rich-text#Brasil-end-1": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sou Lojista",
-        "text": "Sou Lojista"
-      }
+      "blockClass": "Brasil-end-1",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Al. Prof. Lucas Nogueira Garcez, 1395 - Atibaia - SP"
     }
   },
-  "menu-item#sou-representante": {
+  "rich-text#Brasil-end-2": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sou Representante",
-        "text": "Sou Representante"
-      }
+      "blockClass": "Brasil-end-2",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Av. das Nações Unidas, 11.857 8º Andar - Brooklin – São Paulo - SP"
     }
   },
-  "menu-item#sou-fornecedor": {
+  "rich-text#Espanha": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sou Fornecedor",
-        "text": "Sou Fornecedor"
-      }
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ESPANHA"
     }
   },
-  "menu-item#Espanha": {
+  "rich-text#Espanha-end": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Espanha",
-        "text": "Espanha"
-      }
+      "blockClass": "Espanha-end",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Carrer Provença, 339 08037 - Barcelona"
     }
   },
-  "menu-item#compre-por-marca": {
+  "rich-text#EstadosUnidos": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Compre por Marca",
-        "text": "Compre por Marca"
-      }
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ESTADOS UNIDOS"
     }
   },
-  "menu-item#termos-e-condicoes": {
+  "rich-text#EstadosUnidos-end": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Termos e condições",
-        "text": "Termos e condições"
-      }
-    }
-  },
-  "menu-item#privacidade-e-seguranca": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Privacidade e Segurança",
-        "text": "Privacidade e Segurança"
-      }
-    }
-  },
-  "menu-item#login": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Login",
-        "text": "Login"
-      }
-    }
-  },
-  "menu-item#contato": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Contato",
-        "text": "Contato"
-      }
-    }
-  },
-  "menu-item#perguntas-frequentes": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Perguntas Frequentes",
-        "text": "Perguntas Frequentes"
-      }
+      "blockClass": "EstadosUnidos-end",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "12 East 49th Street NY 10017 - New York"
     }
   }
 }

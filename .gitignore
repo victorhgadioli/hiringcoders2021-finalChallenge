@@ -1,4 +1,6 @@
 /node_modules
+/node
+/react
 
 yarn-debug.log*
 yarn-error.log*
