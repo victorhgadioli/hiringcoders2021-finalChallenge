@@ -1,62 +1,90 @@
-# Minimum Boilerplate Theme
+<h1 align="center">
+<img src="https://media-exp1.licdn.com/dms/image/C4D1BAQHfQr7OKzw3qw/company-background_10000/0/1625601466872?e=2159024400&v=beta&t=FhYCbZr68ojz3lfyYUPV-M4lziID87ji6A-oat_okZ4" title="We Are ACCT" />
+</h1>
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+<h3 align="center">
+  Hiring Coders FASE#3- Desafio Final
+</h3>
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+<p align="center">
+  <a href="#sobre o desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iniciando">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades</a>
+</p>
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+## 👨🏻‍💻 Sobre o desafio
 
-## Configuration
+- <p style="color: red;">Desenvolver um projeto com o uso de API, sendo que os grupos serão divididos em 3 apresentações (em datas diferentes para bancas diferentes)!
+- O projeto deverá ser o mesmo para os 3 grupos, o que muda é a temática da API que eles vão puxar, que deve estar relacionada com o mercado de cada patrocinador!! Sendo eles:
+  - [AWS](https://aws.amazon.com/pt/)</br>
+  - [ACCT](https://acct.global)</br>
+  - [Corebiz](https://www.corebiz.ag/pt/)
+</p>
 
-### Step 1 -  Basic setup
+## A temática proposta para o Grupo 25 foi a ACCT</br>
+### Front-End
+Neste front-end teremos a temática da ACCT, com logo, cores, a missão e valores da ACCT em uma página de **sobre**
+- Nesta página de **Sobre** mostrar as virtudes do serviço da ACCT
+- https://acct.global/pt/sobre-nos/
+![sobre-nos](https://user-images.githubusercontent.com/1951762/131201433-6f58da5d-2453-4324-a95e-53fed286c5aa.png)
+- Criar uma página para trazer os dados da API VTEX IO criada no tópico acima, para trazer a lista de produtos cadastrados.
+- Criar uma página para trazer a lista das leads cadastradas na API Gateway na AWS, listando os clientes cadastrados
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+#### Critério opcional
+- Criar um item no adm do VTEX para trazer o conteúdo das leads cadastradas na API Gateway AWS
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+### 💻 Desenvolvedores
+- [André Moraes](https://github.com/andreLTMoraes)
+- [Anna Laura](https://github.com/alauraivani)
+- [Cristiano Souza Santana](https://github.com/CristianoSantan)
+- [Fabiano Pereira](https://github.com/ifabianoi)
+- [Maria (Marrô) Rosa Müller ](https://github.com/Marro-Muller)
+- [Otávio Cleyderman Ferraz Faria](https://github.com/OtavioCleyderman)
+- [Pedro Laranjeira](https://github.com/pedroasso)
+- [Reginaldo Oliveira](https://github.com/Reginaldo007oliveira)
+- [Victor Martins](https://github.com/VictorFerreiraMartins)
+- [Victor Hugo Gadioli](https://github.com/victorhgadioli)
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
 
-Then, access the repository's directory using your terminal. 
+## 🚀 Tecnologias
 
-### Step 3 - Editing the `Manifest.json`
+Tecnologias que utilizamos para desenvolver esta API Rest:
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
+- [VTEX IO](https://vtex.io/)
+- [React](https://pt-br.reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Axios](https://github.com/axios/axios)
+- [AWS Lambda](https://aws.amazon.com/pt/lambda/)
 
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+## 💻 Iniciando
 
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
+- As instruções a seguir irão te guiar para que você crie uma cópia do projeto na sua máquina local.
+
+### Pré-requisitos
+
+**Clone o projeto e acesse a pasta**
+
+```bash
+$ git clone https://github.com/victorhgadioli/hiringcoders2021-finalChallenge/ && cd hiringcoders2021-finalChallenge
 ```
 
-### Step 4 -  Installing required apps
+**Siga as etapas abaixo**
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+```bash
+# Instale as dependências
+$ yarn
 
-Run  `vtex list`  and check whether those apps are already installed. 
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
+# Inicie o client
+$ yarn start
 ```
 
-### Step 6- Run and preview your store
+Tudo pronto! Agora, basta acessar a aplicação, disponível em:
+localhost:3000
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
+Documentação dos endpoints disponível na rota:
+localhost:3000/api-docs
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+## ⚙️ Funcionalidades
+Funcionalidades que o sistema oferece:
