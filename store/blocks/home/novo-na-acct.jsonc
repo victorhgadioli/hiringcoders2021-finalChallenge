@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#novo-na-acct": {
+    "children": ["flex-layout.col#novo-no-atacado-web"]
+  },
+  "flex-layout.col#novo-no-atacado-web": {
+    "children": [
+      "rich-text#novo-no-atacado",
+      "flex-layout.row#novo-no-atacado-web-row"
+    ]
+  },
+  "rich-text#novo-no-atacado": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Novo no Atacado Web",
+      "blockClass": "departament-title"
+    }
+  },
+  "flex-layout.row#novo-no-atacado-web-row": {
+    "children": [
+      "info-card#lojista",
+      "info-card#representante",
+      "info-card#fornecedor"
+    ]
+  },
+
+  "info-card#lojista": {
+    "props": {
+      "id": "info-card-departaments",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atacadoweb.vteximg.com.br/arquivos/ids/176407/banner-home-2.jpg",
+      "callToActionText": "Sou Lojista",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-departaments",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#representante": {
+    "props": {
+      "id": "info-card-departaments",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atacadoweb.vteximg.com.br/arquivos/ids/176397/banner-home-3.jpg",
+      "callToActionText": "Sou Representante",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-departaments",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fornecedor": {
+    "props": {
+      "id": "info-card-novo-no-atacado-web",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atacadoweb.vteximg.com.br/arquivos/ids/176398/banner-home-4.jpg",
+      "callToActionText": "Sou Fornecedor",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-departaments",
+      "textAlignment": "center"
+    }
+  }
+}

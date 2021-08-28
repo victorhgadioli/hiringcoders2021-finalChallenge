@@ -1,0 +1,504 @@
+{
+  "vtex.menu@2.x:menu#menu-items": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "main-menu"
+    },
+    "children": [
+      "menu-item#inicio",
+      "menu-item#acct",
+      "menu-item#oque-fazemos",
+      "menu-item#Blog",
+      "menu-item#parceiros",
+      "menu-item#contatos"
+    ]
+  },
+  "menu-item#inicio": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Início",
+        "text": "inicio"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#inicio"]
+  },
+  "vtex.menu@2.x:submenu#inicio": {
+    "children": []
+  },
+  // "vtex.menu@2.x:menu#alimentos-submenu": {
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": ["menu-item#dispensa-do-basilio"]
+  // },
+  // "menu-item#dispensa-do-basilio": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Dispensa do Basílio",
+  //       "text": "Dispensa do Basílio"
+  //     }
+  //   }
+  // },
+  "menu-item#acct": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryId": 14,
+        "noFollow": false,
+        "tagTitle": "ACCT ",
+        "text": "ACCT"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acct"]
+  },
+  "vtex.menu@2.x:submenu#acct": {
+    "children": ["vtex.menu@2.x:menu#acct-submenu"]
+  },
+  "vtex.menu@2.x:menu#acct-submenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre-nos",
+      "menu-item#imprensa-e-midia",
+      "menu-item#carreiras"
+    ]
+  },
+  "menu-item#sobre-nos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
+      }
+    }
+  },
+  "menu-item#imprensa-e-midia": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Imprensa e mídia",
+        "text": "Imprensa e mídia"
+      }
+    }
+  },
+  "menu-item#carreiras": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Carreiras",
+        "text": "Carreiras"
+      }
+    }
+  },
+
+
+
+
+
+
+
+  "menu-item#oque-fazemos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adidas",
+        "noFollow": false,
+        "tagTitle": "O que fazemos",
+        "text": "O que fazemos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#oque-fazemos"]
+  },
+  "vtex.menu@2.x:submenu#oque-fazemos": {
+    "children": ["vtex.menu@2.x:menu#oque-fazemos-submenu"]
+  },
+  "vtex.menu@2.x:menu#oque-fazemos-submenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#Servicos",
+                 "menu-item#CategoriasIndustriais"]
+  },
+
+
+  "menu-item#Servicos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Serviços",
+        "text": "Serviços"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#Eletrodomesticos"]
+  },
+
+  "menu-item#CategoriasIndustriais": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Categorias Industriais",
+        "text": "Categorias Industriais"
+      }
+
+    }
+
+  },
+
+  "menu-item#Blog": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#cama-mesa-e-banho"]
+  },
+  "vtex.menu@2.x:submenu#Eletrodomesticos": {
+    "children": ["vtex.menu@2.x:menu#eletro-submenu"]
+  },
+  "vtex.menu@2.x:menu#eletro-submenu": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": ["menu-item#QUALITY-ASSURANCE"]
+  },
+  "menu-item#QUALITY-ASSURANCE": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "QUALITY-ASSURANCE",
+        "text": "QUALITY-ASSURANCE"
+      }
+    }
+  },
+  "menu-item#parceiros": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adidas",
+        "noFollow": false,
+        "tagTitle": "Parceiros",
+        "text": "Parceiros"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#esporte-e-lazer"]
+  },
+  // "vtex.menu@2.x:submenu#esporte-e-lazer": {
+  //   "children": ["vtex.menu@2.x:menu#esporte-submenu"]
+  // },
+  // "vtex.menu@2.x:menu#esporte-submenu": {
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": [
+  //     "menu-item#hidrolight",
+  //     "menu-item#speedo",
+  //     "menu-item#mikasa",
+  //     "menu-item#brw",
+  //     "menu-item#capezio",
+  //     "menu-item#citrone"
+  //   ]
+  // },
+  // "menu-item#hidrolight": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Hidrolight",
+  //       "text": "Hidrolight"
+  //     }
+  //   }
+  // },
+  // "menu-item#speedo": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Speedo",
+  //       "text": "Speedo"
+  //     }
+  //   }
+  // },
+  // "menu-item#mikasa": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Mikasa",
+  //       "text": "Mikasa"
+  //     }
+  //   }
+  // },
+  // "menu-item#brw": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "BRW",
+  //       "text": "BRW"
+  //     }
+  //   }
+  // },
+  // "menu-item#capezio": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Capezio",
+  //       "text": "Capezio"
+  //     }
+  //   }
+  // },
+  // "menu-item#citrone": {
+  //   "props": {
+  //     "type": "custom",
+  //     "blockClass": "main-menu-item",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "tagTitle": "Citrone",
+  //       "text": "Citrone"
+  //     }
+  //   }
+  // },
+  "menu-item#contatos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adidas",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#moda-&-acessorios"]
+  },
+  "vtex.menu@2.x:submenu#moda-&-acessorios": {
+    "children": ["vtex.menu@2.x:menu#moda-submenu"]
+  },
+  "vtex.menu@2.x:menu#moda-submenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#uv-line",
+      "menu-item#mash",
+      "menu-item#hmr",
+      "menu-item#blue-sandalias",
+      "menu-item#brilho-do-sol",
+      "menu-item#kanxa",
+      "menu-item#fabiola-molina",
+      "menu-item#lazara",
+      "menu-item#gaia"
+    ]
+  },
+  "menu-item#uv-line": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "UV LINE",
+        "text": "UV LINE"
+      }
+    }
+  },
+  "menu-item#mash": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "MASH",
+        "text": "MASH"
+      }
+    }
+  },
+  "menu-item#hmr": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "HMR",
+        "text": "HMR"
+      }
+    }
+  },
+  "menu-item#blue-sandalias": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Blue Sandálias",
+        "text": "Blue Sandálias"
+      }
+    }
+  },
+  "menu-item#brilho-do-sol": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Brilho do Sol",
+        "text": "Brilho do Sol"
+      }
+    }
+  },
+  "menu-item#kanxa": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "kanxa",
+        "text": "Kanxa"
+      }
+    }
+  },
+  "menu-item#fabiola-molina": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Fabiola Molina",
+        "text": "Fabiola Molina"
+      }
+    }
+  },
+  "menu-item#lazara": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Lázara",
+        "text": "Lázara"
+      }
+    }
+  },
+  "menu-item#gaia": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Gaia",
+        "text": "Gaia"
+      }
+    }
+  }
+}

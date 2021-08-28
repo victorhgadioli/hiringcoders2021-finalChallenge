@@ -1,0 +1,124 @@
+{
+  "flex-layout.row#departaments": {
+    "props": {
+      "blockClass": "departament-row"
+    },
+    "children": ["flex-layout.col#departaments"]
+  },
+  "flex-layout.col#departaments": {
+    "children": [
+      "rich-text#departament",
+      "flex-layout.row#departaments-row-1"
+      // "flex-layout.row#departaments-row-2"
+    ]
+  },
+  "rich-text#departament": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Projetando o futuro do comércio digital",
+      "blockClass": "departament-title"
+    }
+  },
+
+  "rich-text#departament2": {
+    "props": {
+      "textAlignment": "JUSTIFY",
+      "textPosition": "JUSTIFY",
+      "text": "Cole o texto aqui",
+      "blockClass": "textoInterno "
+    }
+  },
+  "flex-layout.row#departaments-row-1": {
+    "children": ["rich-text#departament2",
+                  "image#homeAcct"]
+  },
+
+
+  // "flex-layout.row#departaments-row-2": {
+  //   "children": ["info-card#item-4", "info-card#item-5", "info-card#item-6"]
+  // },
+
+
+  "image#homeAcct": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+      "maxHeight": 600
+    }
+  }
+
+
+  // "info-card#item-1": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //     "callToActionText": "Alimentos e bebidas",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // },
+
+  // "info-card#item-2": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //      "callToActionText": "saiba mais",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // },
+  // "info-card#item-3": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl":"https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //     "callToActionText": "Calçados",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // },
+  // "info-card#item-4": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //     "callToActionText": "Cama, Mesa e Banho",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // },
+  // "info-card#item-5": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //     "callToActionText": "Esporte e Lazer",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // },
+  // "info-card#item-6": {
+  //   "props": {
+  //     "id": "info-card-departaments",
+  //     "isFullModeStyle": false,
+  //     "textPosition": "left",
+  //     "imageUrl": "https://acct.global/wp-content/uploads/2020/10/img-about-us.jpg",
+  //     "callToActionText": "Moda e Acessórios",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "info-card-departaments",
+  //     "textAlignment": "center"
+  //   }
+  // }
+}

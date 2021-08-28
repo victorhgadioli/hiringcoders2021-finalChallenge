@@ -1,0 +1,145 @@
+{
+  "menu-item#Brasil": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Brasil",
+        "text": "BRASIL"
+      }
+    }
+  },
+  "menu-item#sou-lojista": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sou Lojista",
+        "text": "Sou Lojista"
+      }
+    }
+  },
+  "menu-item#sou-representante": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sou Representante",
+        "text": "Sou Representante"
+      }
+    }
+  },
+  "menu-item#sou-fornecedor": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sou Fornecedor",
+        "text": "Sou Fornecedor"
+      }
+    }
+  },
+  "menu-item#Espanha": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Espanha",
+        "text": "Espanha"
+      }
+    }
+  },
+  "menu-item#compre-por-marca": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compre por Marca",
+        "text": "Compre por Marca"
+      }
+    }
+  },
+  "menu-item#termos-e-condicoes": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Termos e condições",
+        "text": "Termos e condições"
+      }
+    }
+  },
+  "menu-item#privacidade-e-seguranca": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Privacidade e Segurança",
+        "text": "Privacidade e Segurança"
+      }
+    }
+  },
+  "menu-item#login": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Login",
+        "text": "Login"
+      }
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+  },
+  "menu-item#perguntas-frequentes": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Perguntas Frequentes",
+        "text": "Perguntas Frequentes"
+      }
+    }
+  }
+}

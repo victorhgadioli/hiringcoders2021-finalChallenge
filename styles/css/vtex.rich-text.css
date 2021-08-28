@@ -1,0 +1,31 @@
+.paragraph--departament-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #002740;
+}
+.paragraph--copyright {
+  color: #fff;
+  font-size: 14px;
+}
+
+.paragraph--partnes-alignment {
+  margin-left: 110px;
+}
+
+.paragraph--rich-whatsapp {
+  margin: 10px 0;
+}
+
+.paragraph--rich-email {
+  margin: 0;
+}
+.paragraph--textoInterno {
+  margin-top: -97px;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}

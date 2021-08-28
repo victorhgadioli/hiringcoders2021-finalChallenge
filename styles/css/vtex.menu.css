@@ -1,0 +1,12 @@
+.menuContainer--main-menu{
+     justify-content: space-around; 
+  }
+
+  .styledLinkContent--main-menu-item{
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #002740;
+      font-weight: bold;
+  }
+
+

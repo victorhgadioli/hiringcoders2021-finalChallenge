@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@vtex/prettier-config": "^0.3.5",
+    "prettier": "2.2.0"
+  }
+}

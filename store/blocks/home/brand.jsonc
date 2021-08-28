@@ -1,0 +1,380 @@
+{
+  "flex-layout.row#brand": {
+    "props": {
+      "blockClass": "brand-row"
+    },
+    "children": ["flex-layout.col#brand"]
+  },
+  "flex-layout.col#brand": {
+    "children": ["flex-layout.row#brand-title", "flex-layout.row#brand-images"]
+  },
+  "flex-layout.row#brand-title": {
+    "children": ["rich-text#brand"]
+  },
+  "rich-text#brand": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compre por marca",
+      "blockClass": "departament-title"
+    }
+  },
+  "flex-layout.row#brand-images": {
+    "props": {
+      "title": "Brand Block",
+      "blockClass": "image-row"
+    },
+    "children": [
+      "image#1",
+      "image#2",
+      "image#3",
+      "image#4",
+      "image#5",
+      "image#6",
+      "image#7",
+      "image#8",
+      "image#9",
+      "image#10",
+      "image#11",
+      "image#12",
+      "image#13",
+      "image#14",
+      "image#15",
+      "image#16",
+      "image#17",
+      "image#18",
+      "image#19",
+      "image#20",
+      "image#21",
+      "image#22",
+      "image#23",
+      "image#24",
+      "image#25",
+      "image#26",
+      "image#27",
+      "image#28",
+      "image#29",
+      "image#30",
+      "image#31",
+      "image#32",
+      "image#33",
+      "image#34",
+      "image#35",
+      "image#36",
+      "image#37",
+      "image#38",
+      "image#39",
+      "image#40",
+      "image#41",
+      "image#42",
+      "image#43",
+      "image#44",
+      "image#45",
+      "image#46",
+      "image#47",
+      "image#48",
+      "image#49",
+      "image#50"
+    ]
+  },
+  "image#1": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#4": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#5": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#6": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#7": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#8": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#9": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#10": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#11": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#12": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#13": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#14": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#15": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#16": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#17": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#18": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#19": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#20": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#21": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#22": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#23": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#24": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#25": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#26": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#27": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#28": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#29": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#30": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#31": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#32": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#33": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#34": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#35": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#36": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#37": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#38": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#39": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#40": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#41": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#42": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#43": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#44": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#45": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#46": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#47": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#48": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#49": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  },
+  "image#50": {
+    "props": {
+      "src": "",
+      "maxHeight": 180
+    }
+  }
+}
