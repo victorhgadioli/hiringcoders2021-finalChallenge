@@ -1,0 +1,40 @@
+{
+    /*#mission-about-us*/
+    "flex-layout.row#mission-about-us": {
+        "children": [
+            "flex-layout.col#col-mission-about-us"
+        ]
+    },
+    "flex-layout.col#col-mission-about-us": {
+        "children": [
+            "rich-text#title-mission-about-us",
+            "flex-layout.row#content-mission-about-us"
+        ]
+    },
+    "rich-text#title-mission-about-us": {
+        "props": {
+            "text": "## Projetando o futuro do comércio digital",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#content-mission-about-us": {
+        "children": [
+            "rich-text#text-mission-about-us",
+            "image#img-mission-about-us"
+        ]
+    },
+    "rich-text#text-mission-about-us": {
+        "props": {
+            "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+            "colorText": "link"
+        }
+    },
+    "image#img-mission-about-us": {
+        "props": {
+            "maxWidth": 540,
+            "src": "assets/about-us/img-about-us.jpg"
+        }
+    }
+}

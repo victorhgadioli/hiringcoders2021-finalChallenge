@@ -1,0 +1,550 @@
+{
+    /*#team-about-us*/
+    "flex-layout.row#team-about-us": {
+        "children": [
+            "flex-layout.col#col-team-about-us"
+        ]
+    },
+    "flex-layout.col#col-team-about-us": {
+        "children": [
+            "rich-text#text-team-by-about-us",
+            "rich-text#text-team-description-by-about-us",
+            "flex-layout.row#content-team-about-us"
+        ]
+    },
+    "rich-text#text-team-by-about-us": {
+        "props": {
+            "text": "## Time_",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#text-team-description-by-about-us": {
+        "props": {
+            "text": "A ACCT tem uma equipe interna de alto desempenho com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#content-team-about-us": {
+        "children": [
+            "slider-layout#team-about-us"
+        ]
+    },
+    "slider-layout#team-about-us": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showPaginationDots": "mobileOnly",
+            "centerMode": "center",
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "flex-layout.col#team-about-us-avatar-1",
+            "flex-layout.col#team-about-us-avatar-2",
+            "flex-layout.col#team-about-us-avatar-3",
+            "flex-layout.col#team-about-us-avatar-4",
+            "flex-layout.col#team-about-us-avatar-5",
+            "flex-layout.col#team-about-us-avatar-6",
+            "flex-layout.col#team-about-us-avatar-7",
+            "flex-layout.col#team-about-us-avatar-8",
+            "flex-layout.col#team-about-us-avatar-9",
+            "flex-layout.col#team-about-us-avatar-10",
+            "flex-layout.col#team-about-us-avatar-11",
+            "flex-layout.col#team-about-us-avatar-12",
+            "flex-layout.col#team-about-us-avatar-13",
+            "flex-layout.col#team-about-us-avatar-14",
+            "flex-layout.col#team-about-us-avatar-15",
+            "flex-layout.col#team-about-us-avatar-16",
+            "flex-layout.col#team-about-us-avatar-17",
+            "flex-layout.col#team-about-us-avatar-18",
+            "flex-layout.col#team-about-us-avatar-19"
+        ]
+    },
+    //avatar-1
+    "flex-layout.col#team-about-us-avatar-1": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-1",
+            "rich-text#text-team-about-us-avatar-1"
+        ]
+    },
+    "image#img-team-about-us-avatar-1": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/ammon-cunha-150x150.jpg"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-1": {
+        "props": {
+            "text": "Ammon Cunha \n Head of Business Intelligence",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-2
+    "flex-layout.col#team-about-us-avatar-2": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-2",
+            "rich-text#text-team-about-us-avatar-2"
+        ]
+    },
+    "image#img-team-about-us-avatar-2": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/ana-lebre-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-2": {
+        "props": {
+            "text": "Ana Lebre \n Sales Analisty",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-3
+    "flex-layout.col#team-about-us-avatar-3": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-3",
+            "rich-text#text-team-about-us-avatar-3"
+        ]
+    },
+    "image#img-team-about-us-avatar-3": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/andre-dudek-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-3": {
+        "props": {
+            "text": "Andre Dudek \n Director & Partner",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-4
+    "flex-layout.col#team-about-us-avatar-4": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-4",
+            "rich-text#text-team-about-us-avatar-4"
+        ]
+    },
+    "image#img-team-about-us-avatar-4": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/anna-chimenes-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-4": {
+        "props": {
+            "text": "Anna Chimenes \n Head de Controladoria e Backoffice",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-5
+    "flex-layout.col#team-about-us-avatar-5": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-5",
+            "rich-text#text-team-about-us-avatar-5"
+        ]
+    },
+    "image#img-team-about-us-avatar-5": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/barbara-cruz-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-5": {
+        "props": {
+            "text": "Barbara Cruz \n Head de Controladoria e Backoffice",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-6
+    "flex-layout.col#team-about-us-avatar-6": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-6",
+            "rich-text#text-team-about-us-avatar-6"
+        ]
+    },
+    "image#img-team-about-us-avatar-6": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/camila-santos-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-6": {
+        "props": {
+            "text": "Camila Santos \n Head de Controladoria e Backoffice",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-7
+    "flex-layout.col#team-about-us-avatar-7": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-7",
+            "rich-text#text-team-about-us-avatar-7"
+        ]
+    },
+    "image#img-team-about-us-avatar-7": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/carlos-oliveira-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-7": {
+        "props": {
+            "text": "Carlos Oliveira \n Head de Controladoria e Backoffice",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-8
+    "flex-layout.col#team-about-us-avatar-8": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-8",
+            "rich-text#text-team-about-us-avatar-8"
+        ]
+    },
+    "image#img-team-about-us-avatar-8": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/cecilia-pereira-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-8": {
+        "props": {
+            "text": "Cecilia Pereira \n Head of Training and Development",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-9
+    "flex-layout.col#team-about-us-avatar-9": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-9",
+            "rich-text#text-team-about-us-avatar-9"
+        ]
+    },
+    "image#img-team-about-us-avatar-9": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/fabio-feichtinger-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-9": {
+        "props": {
+            "text": "Fábio Feichtinger \n CTO & Partner",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-10
+    "flex-layout.col#team-about-us-avatar-10": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-10",
+            "rich-text#text-team-about-us-avatar-10"
+        ]
+    },
+    "image#img-team-about-us-avatar-10": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/fatima-raizaro-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-10": {
+        "props": {
+            "text": "Fátima Raizaro \n Head of RH",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-11
+    "flex-layout.col#team-about-us-avatar-11": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-11",
+            "rich-text#text-team-about-us-avatar-11"
+        ]
+    },
+    "image#img-team-about-us-avatar-11": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/frederico-heitmann-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-11": {
+        "props": {
+            "text": "Frederico Heitmann \n CEO & Partner",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-12
+    "flex-layout.col#team-about-us-avatar-12": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-12",
+            "rich-text#text-team-about-us-avatar-12"
+        ]
+    },
+    "image#img-team-about-us-avatar-12": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/guilherme-cardoso-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-12": {
+        "props": {
+            "text": "Guilherme Cardoso \n Head of Engineering",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-13
+    "flex-layout.col#team-about-us-avatar-13": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-13",
+            "rich-text#text-team-about-us-avatar-13"
+        ]
+    },
+    "image#img-team-about-us-avatar-13": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/juan-nader-150x150.jpg"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-13": {
+        "props": {
+            "text": "Juan Nader \n Head of Marketing",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-14
+    "flex-layout.col#team-about-us-avatar-14": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-14",
+            "rich-text#text-team-about-us-avatar-14"
+        ]
+    },
+    "image#img-team-about-us-avatar-14": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/marcos-cipriani-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-14": {
+        "props": {
+            "text": "Marcos Cipriani \n General Manager Europe",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-15
+    "flex-layout.col#team-about-us-avatar-15": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-15",
+            "rich-text#text-team-about-us-avatar-15"
+        ]
+    },
+    "image#img-team-about-us-avatar-15": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/rafael-esberard-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-15": {
+        "props": {
+            "text": "Rafael Esberard \n SVP of Global Sales",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-16
+    "flex-layout.col#team-about-us-avatar-16": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-16",
+            "rich-text#text-team-about-us-avatar-16"
+        ]
+    },
+    "image#img-team-about-us-avatar-16": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/rafael-rossini-150x150.jpg"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-16": {
+        "props": {
+            "text": "Rafael Rossini \n Developer",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-17
+    "flex-layout.col#team-about-us-avatar-17": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-17",
+            "rich-text#text-team-about-us-avatar-17"
+        ]
+    },
+    "image#img-team-about-us-avatar-17": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/rodrigo-de-gouveia-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-17": {
+        "props": {
+            "text": "Rodrigo de Gouveia \n Design Experience Director",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-18
+    "flex-layout.col#team-about-us-avatar-18": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-18",
+            "rich-text#text-team-about-us-avatar-18"
+        ]
+    },
+    "image#img-team-about-us-avatar-18": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/urania-reis-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-18": {
+        "props": {
+            "text": "Urânia Reis \n Head of Quality Assure",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    //avatar-19
+    "flex-layout.col#team-about-us-avatar-19": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-team-about-us-avatar-19",
+            "rich-text#text-team-about-us-avatar-19"
+        ]
+    },
+    "image#img-team-about-us-avatar-19": {
+        "props": {
+            "blockClass": "team-img",
+            "maxWidth": 150,
+            "src": "assets/about-us/team/victor-angelotti-150x150.png"
+        }
+    },
+    "rich-text#text-team-about-us-avatar-19": {
+        "props": {
+            "text": "Victor Angelotti \n Designer",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    /*#trusted-by-about-us*/
+    "flex-layout.row#trusted-by-about-us": {
+        "children": [
+            "flex-layout.col#col-trusted-by-about-us"
+        ]
+    },
+    "flex-layout.col#col-trusted-by-about-us": {
+        "children": [
+            "rich-text#text-trusted-by-about-us",
+            "flex-layout.row#content-trusted-by-about-us-1",
+            "flex-layout.row#content-trusted-by-about-us-2"
+        ]
+    },
+    "rich-text#text-trusted-by-about-us": {
+        "props": {
+            "text": "## Trusted by",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#content-trusted-by-about-us-1": {
+        "children": [
+            "image#img-content-trusted-by-about-us-carrefour",
+            "image#img-content-trusted-by-about-us-samsung",
+            "image#img-content-trusted-by-about-us-abinbev",
+            "image#img-content-trusted-by-about-us-stanley",
+            "image#img-content-trusted-by-about-us-motorola"
+        ]
+    },
+    "flex-layout.row#content-trusted-by-about-us-2": {
+        "children": [
+            "image#img-content-trusted-by-about-us-unilever",
+            "image#img-content-trusted-by-about-us-whirlpool",
+            "image#img-content-trusted-by-about-us-universal",
+            "image#img-content-trusted-by-about-us-decathlon",
+            "image#img-content-trusted-by-about-us-cea"
+        ]
+    },
+    "image#img-content-trusted-by-about-us-carrefour": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_carrefour.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-samsung": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_samsung.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-abinbev": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_abinbev.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-stanley": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_stanley-black-decker.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-motorola": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_motorola.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-unilever": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_unilever.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-whirlpool": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_whirlpool.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-universal": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_universal-mg.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-decathlon": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_decathlon.svg"
+        }
+    },
+    "image#img-content-trusted-by-about-us-cea": {
+        "props": {
+            "maxWidth": 130,
+            "src": "assets/trusted-by/clients_cea.svg"
+        }
+    }
+}

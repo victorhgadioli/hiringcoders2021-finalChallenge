@@ -1,0 +1,126 @@
+{
+    /*#values-about-us*/
+    "flex-layout.row#values-about-us": {
+        "children": [
+            "flex-layout.col#col-values-about-us"
+        ]
+    },
+    "flex-layout.col#col-values-about-us": {
+        "children": [
+            "rich-text#text-values-about-us",
+            "flex-layout.row#content-values-about-us"
+        ]
+    },
+    "rich-text#text-values-about-us": {
+        "props": {
+            "text": "## Por que a ACCT?",
+            "colorText": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#content-values-about-us": {
+        "children": [
+            "flex-layout.col#values-about-us-complex-data",
+            "flex-layout.col#values-about-us-tech-skills",
+            "flex-layout.col#values-about-us-vtexio",
+            "flex-layout.col#values-about-us-customer-service",
+            "flex-layout.col#values-about-us-security"
+        ]
+    },
+    //#values-about-us-complex-data
+    "flex-layout.col#values-about-us-complex-data": {
+        "children": [
+            "image#img-values-about-us-complex-data",
+            "rich-text#text-values-about-us-complex-data"
+        ]
+    },
+    "image#img-values-about-us-complex-data": {
+        "props": {
+            "maxWidth": 100,
+            "src": "assets/about-us/icon_dashboard.svg"
+        }
+    },
+    "rich-text#text-values-about-us-complex-data": {
+        "props": {
+            "text": "Engenharia de Dados de Alta \n Complexidade ",
+            "colorText": "link"
+        }
+    },
+    //#values-about-us-tech-skills
+    "flex-layout.col#values-about-us-tech-skills": {
+        "children": [
+            "image#img-values-about-us-tech-skills",
+            "rich-text#text-values-about-us-tech-skills"
+        ]
+    },
+    "image#img-values-about-us-tech-skills": {
+        "props": {
+            "maxWidth": 100,
+            "src": "assets/about-us/icon_integration.svg"
+        }
+    },
+    "rich-text#text-values-about-us-tech-skills": {
+        "props": {
+            "text": "Habilidades Técnicas ",
+            "colorText": "link"
+        }
+    },
+    //#values-about-us-vtexio
+    "flex-layout.col#values-about-us-vtexio": {
+        "children": [
+            "image#img-values-about-us-vtexio",
+            "rich-text#text-values-about-us-vtexio"
+        ]
+    },
+    "image#img-values-about-us-vtexio": {
+        "props": {
+            "maxWidth": 100,
+            "src": "assets/about-us/icon_development.svg"
+        }
+    },
+    "rich-text#text-values-about-us-vtexio": {
+        "props": {
+            "text": "Líder de Mercado em Implementações \n VTEX IO ",
+            "colorText": "link"
+        }
+    },
+    //#values-about-us-customer-service
+    "flex-layout.col#values-about-us-customer-service": {
+        "children": [
+            "image#img-values-about-us-customer-service",
+            "rich-text#text-values-about-us-customer-service"
+        ]
+    },
+    "image#img-values-about-us-customer-service": {
+        "props": {
+            "maxWidth": 100,
+            "src": "assets/about-us/icon_customer-service.svg"
+        }
+    },
+    "rich-text#text-values-about-us-customer-service": {
+        "props": {
+            "text": " Excelente Suporte ao Cliente ",
+            "colorText": "link"
+        }
+    },
+    //#values-about-us-security
+    "flex-layout.col#values-about-us-security": {
+        "children": [
+            "image#img-values-about-us-security",
+            "rich-text#text-values-about-us-security"
+        ]
+    },
+    "image#img-values-about-us-security": {
+        "props": {
+            "maxWidth": 100,
+            "src": "assets/about-us/icon_shield.svg"
+        }
+    },
+    "rich-text#text-values-about-us-security": {
+        "props": {
+            "text": "Segurança e Confiabilidade ",
+            "colorText": "link"
+        }
+    }
+}
