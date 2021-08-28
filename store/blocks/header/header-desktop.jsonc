@@ -22,9 +22,9 @@
         },
         "children": [
           "flex-layout.col#logo-desktop",
-          "vtex.menu@2.x:menu#menu-items"
+          "vtex.menu@2.x:menu#menu-items",
          // "search-bar"
-         // "flex-layout.row#minicart-and-login"
+          "flex-layout.row#minicart-and-login"
         ]
       },
       "search-bar":{
