@@ -67,7 +67,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "noFollow": false,
         "tagTitle": "Sobre nós",
         "text": "Sobre nós"
@@ -111,7 +111,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/adidas",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "O que fazemos",
         "text": "O que fazemos"
@@ -209,7 +209,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/adidas",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Parceiros",
         "text": "Parceiros"
@@ -225,7 +225,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/adidas",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Contato",
         "text": "Contato"

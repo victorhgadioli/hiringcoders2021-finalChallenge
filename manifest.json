@@ -1,12 +1,13 @@
 {
-  "vendor": "hiringcoders2021",
+  "vendor": "hiringcoders202125",
   "name": "thememasterclass",
   "version": "0.1.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "react": "3.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
