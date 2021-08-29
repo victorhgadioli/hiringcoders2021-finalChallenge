@@ -1,0 +1,58 @@
+{
+  "rich-text#Brasil": {
+    "props": {
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "BRASIL"
+    }
+  },
+  "rich-text#Brasil-end-1": {
+    "props": {
+      "blockClass": "Brasil-end-1",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Al. Prof. Lucas Nogueira Garcez, 1395 - Atibaia - SP"
+    }
+  },
+  "rich-text#Brasil-end-2": {
+    "props": {
+      "blockClass": "Brasil-end-2",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Av. das Nações Unidas, 11.857 8º Andar - Brooklin – São Paulo - SP"
+    }
+  },
+  "rich-text#Espanha": {
+    "props": {
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ESPANHA"
+    }
+  },
+  "rich-text#Espanha-end": {
+    "props": {
+      "blockClass": "Espanha-end",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Carrer Provença, 339 08037 - Barcelona"
+    }
+  },
+  "rich-text#EstadosUnidos": {
+    "props": {
+      "blockClass": "title-footer",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ESTADOS UNIDOS"
+    }
+  },
+  "rich-text#EstadosUnidos-end": {
+    "props": {
+      "blockClass": "EstadosUnidos-end",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "12 East 49th Street NY 10017 - New York"
+    }
+  }
+}

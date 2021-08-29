@@ -1,0 +1,236 @@
+{
+  "vtex.menu@2.x:menu#menu-items": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "main-menu"
+    },
+    "children": [
+      "menu-item#inicio",
+      "menu-item#acct",
+      "menu-item#oque-fazemos",
+      "menu-item#Blog",
+      "menu-item#parceiros",
+      "menu-item#contatos"
+    ]
+  },
+  "menu-item#inicio": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item-inicio",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Início",
+        "text": "início"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#inicio"]
+  },
+  "vtex.menu@2.x:submenu#inicio": {
+    "children": []
+  },
+
+  "menu-item#acct": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryId": 14,
+        "noFollow": false,
+        "tagTitle": "ACCT ",
+        "text": "ACCT"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acct"]
+  },
+  "vtex.menu@2.x:submenu#acct": {
+    "children": ["vtex.menu@2.x:menu#acct-submenu"]
+  },
+  "vtex.menu@2.x:menu#acct-submenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre-nos",
+      "menu-item#imprensa-e-midia",
+      "menu-item#carreiras"
+    ]
+  },
+  "menu-item#sobre-nos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
+      }
+    }
+  },
+  "menu-item#imprensa-e-midia": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Imprensa e mídia",
+        "text": "Imprensa e mídia"
+      }
+    }
+  },
+  "menu-item#carreiras": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Carreiras",
+        "text": "Carreiras"
+      }
+    }
+  },
+
+
+  "menu-item#oque-fazemos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "O que fazemos",
+        "text": "O que fazemos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#oque-fazemos"]
+  },
+  "vtex.menu@2.x:submenu#oque-fazemos": {
+    "children": ["vtex.menu@2.x:menu#oque-fazemos-submenu"]
+  },
+  "vtex.menu@2.x:menu#oque-fazemos-submenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#Servicos",
+                 "menu-item#CategoriasIndustriais"]
+  },
+
+
+  "menu-item#Servicos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Serviços",
+        "text": "Serviços"
+      }
+    }
+
+  },
+
+  "menu-item#CategoriasIndustriais": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Categorias Industriais",
+        "text": "Categorias Industriais"
+      }
+
+    }
+
+  },
+
+  "menu-item#Blog": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+
+  },
+  "vtex.menu@2.x:submenu#Eletrodomesticos": {
+    "children": ["vtex.menu@2.x:menu#eletro-submenu"]
+  },
+  "vtex.menu@2.x:menu#eletro-submenu": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": ["menu-item#QUALITY-ASSURANCE"]
+  },
+  "menu-item#QUALITY-ASSURANCE": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "QUALITY-ASSURANCE",
+        "text": "QUALITY-ASSURANCE"
+      }
+    }
+  },
+  "menu-item#parceiros": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Parceiros",
+        "text": "Parceiros"
+      }
+    }
+
+  },
+
+  "menu-item#contatos": {
+    "props": {
+      "type": "custom",
+      "blockClass": "main-menu-item",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+
+  }
+}

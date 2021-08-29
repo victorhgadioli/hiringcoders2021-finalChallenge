@@ -1,0 +1,56 @@
+{
+    "header-layout.desktop": {
+        "children": [
+          "sticky-layout#desktop"
+
+        ]
+      },
+      "sticky-layout#desktop": {
+        "props": {
+          "blockClass": "sticky-header"
+        },
+        "children": ["flex-layout.row#desktop"]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass":  "main-header-desktop"
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "vtex.menu@2.x:menu#menu-items",
+         "search-bar",
+          "flex-layout.row#minicart-and-login"
+        ]
+      },
+      "search-bar":{
+        "props": {
+          "placeholder": "Digite aqui...",
+          "openAutocompleteOnFocus":true
+        }
+      },
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo"]
+      },
+      "login": {
+        "props": {
+            "showIconProfile": true
+        }
+      },
+      "flex-layout.row#minicart-and-login": {
+        "children": [
+          "login",
+          "minicart"
+        ],
+        "props": {
+          "blockClass":"login-menu"
+                 }
+      }
+}

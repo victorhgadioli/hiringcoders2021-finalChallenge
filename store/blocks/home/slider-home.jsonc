@@ -1,0 +1,66 @@
+{
+"list-context.image-list#banner-home": {
+  "children": ["slider-layout#demo-images"],
+  "props": {
+    "preload": true,
+    "height": 650,
+    "images": [
+      {
+        "image": "assets/slides/Slide1.png",
+        "description": "something something"
+      },
+      {
+        "image": "assets/slides/Slide2.png",
+        "description": "something something"
+      }
+    ]
+  }
+},
+
+"slider-layout#demo-images": {
+  "props": {
+    "autoplay": {
+      "timeout": 7000,
+      "stopOnHover": true
+    },
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true
+  }
+}
+
+}
+
+
+
+// {
+//   "list-context.image-list#banner-home": {
+//     "children": ["slider-layout#banner-images"],
+//     "props": {
+//       "height": 650,
+//       "images": [
+//         {
+//           "image": "",
+//           "description": "Banner Home"
+//         },
+//         {
+//           "image": "",
+//           "description": "Banner Home"
+//         }
+//       ]
+//     }
+//   },
+//   "slider-layout#banner-images": {
+//     "props": {
+//       "itemsPerPage": {
+//         "desktop": 1,
+//         "tablet": 1,
+//         "phone": 1
+//       },
+//       "infinite": true
+//     }
+//   }
+// }

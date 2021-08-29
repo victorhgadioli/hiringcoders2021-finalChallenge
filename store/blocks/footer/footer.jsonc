@@ -1,0 +1,167 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer", "flex-layout.row#copyright"]
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer", "flex-layout.row#copyright"]
+  },
+  "flex-layout.row#footer": {
+    "props": {
+      "blockClass": "footer-row"
+    },
+    "children": ["flex-layout.col#menu-footer-items"]
+  },
+  "flex-layout.col#menu-footer-items": {
+    "children": [
+      "flex-layout.row#menu-footer",
+      "flex-layout.row#partnes-footer"
+    ]
+  },
+  "flex-layout.row#copyright": {
+    "props": { "blockClass": "footer-copyright" },
+    "children": ["rich-text#copyright"]
+  },
+  "rich-text#copyright": {
+    "props": {
+      "blockClass": "copyright",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ACCT /  ALALALTDA | CNPJ: 00.007.00/0001-00 | SCEN Trecho 2, ATIBAIA - Parte Boutique, DF, 70800-120"
+    }
+  },
+  "flex-layout.row#menu-footer": {
+    "props": {
+      "blockClass": "footer-menu-row"
+    },
+    "children": [
+      "flex-layout.col#menu-footer-items-1",
+      "flex-layout.col#menu-footer-items-2",
+      "flex-layout.col#menu-footer-items-3",
+      "flex-layout.col#menu-footer-items-4",
+      "flex-layout.col#menu-footer-items-5"
+    ]
+  },
+  "flex-layout.col#menu-footer-items-1": {
+    "children": [
+      "image#gptw"
+    ]
+  },
+  "image#gptw": {
+    "props": {
+      "src": "assets/footer/selo-gptw-2021.svg",
+      "maxWidth": 122
+    }
+  },
+  "flex-layout.col#menu-footer-items-2": {
+    "children": [
+      "image#logo",
+      "social-networks",
+      "rich-text#email"
+    ]
+  },
+  "image#logo": {
+    "props": {
+      "src": "assets/logo-acct.png",
+      "maxWidth": 176
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://www.linkedin.com/company/acctglobal/", "name": "LinkedIn" },
+        { "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA", "name": "Youtube" },
+        { "url": "https://www.instagram.com/acct.global", "name": "Instagram" }
+      ]
+    }
+  },
+  "rich-text#email": {
+    "props": {
+      "blockClass": "rich-email",
+      "text": "contato@acct.com.br"
+    }
+  },
+  "flex-layout.col#menu-footer-items-3": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#Brasil",
+      "rich-text#Brasil-end-1",
+      "rich-text#Brasil-end-2"
+    ]
+  },
+  "flex-layout.col#menu-footer-items-4": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#Espanha",
+      "rich-text#Espanha-end"
+    ]
+  },
+  "flex-layout.col#menu-footer-items-5": {
+    "props": {
+      "blockClass": "menu-items-footer"
+    },
+    "children": [
+      "rich-text#EstadosUnidos",
+      "rich-text#EstadosUnidos-end"
+    ]
+  },
+
+
+
+  "flex-layout.row#partnes-footer": {
+    "props": {
+      "blockClass": "footer-partnes"
+    },
+    "children": [
+      // "flex-layout.col#menu-footer-bling",
+      // "flex-layout.col#menu-footer-lets-encrypt",
+      // "flex-layout.col#menu-footer-vtex"
+    ]
+  },
+  "flex-layout.col#menu-footer-bling": {
+    "children": ["rich-text#parceiros-footer", "image#logo-vtex"]
+  },
+  "flex-layout.col#menu-footer-lets-encrypt": {
+    "children": [
+      "rich-text#site-seguro-footer",
+      "flex-layout.row#lets-encrypt-images"
+    ]
+  },
+  "flex-layout.row#lets-encrypt-images": {
+    "children": ["image#logo-vtex", "image#logo-vtex"]
+  },
+  "flex-layout.col#menu-footer-vtex": {
+    "children": ["rich-text#powered-footer", "image#logo-vtex"]
+  },
+  "rich-text#parceiros-footer": {
+    "props": {
+      "blockClass": "partnes-alignment",
+      "text": "Parceiros"
+    }
+  },
+  "rich-text#site-seguro-footer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Site seguro"
+    }
+  },
+  "rich-text#powered-footer": {
+    "props": {
+      "blockClass": "partnes-alignment",
+      "text": "Power by"
+    }
+  },
+  "image#logo-vtex": {
+    "props": {
+      "width": 200,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    }
+  }
+}

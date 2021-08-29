@@ -324,84 +324,132 @@
     ],
     "styles": {
       "heading-1": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
+<<<<<<< HEAD
         "fontFamily": "DM Sans, FontAwesome, Open Sans, Open Sans Condensed, roboto, lsow-icomoon, sow-fontawesome-brands",
+=======
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+>>>>>>> origin/frontend
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
