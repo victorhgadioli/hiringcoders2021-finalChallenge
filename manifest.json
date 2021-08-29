@@ -17,9 +17,10 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "vtex.product-summary": "2.x",
+    "vtex.store-image": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
+    "vtex.product-summary": "2.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
