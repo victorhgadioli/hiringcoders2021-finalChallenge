@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banner-home",
+      "__fold__",
       "rich-text#titleSlogan",
       "rich-text#textSlogan",
       "link#about-us",
