@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 .imageElement--team-img{
     border-radius: 50%;
-=======
+}
+
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: 40px;
   border-radius: 35px;
@@ -57,5 +57,4 @@
 
 .logoImage {
   margin-left: -50%;
->>>>>>> origin/frontend
 }
