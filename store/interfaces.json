@@ -1,5 +1,8 @@
 {
   "services": {
     "component": "Services"
+  },
+  "trusteds": {
+    "component": "Trusteds"
   }
 }

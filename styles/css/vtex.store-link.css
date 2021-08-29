@@ -1,0 +1,22 @@
+.label {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em 2em;
+  background: transparent;
+  border: 2px solid #5974c7;
+  color: #5974c7 !important;
+  border-radius: 0em;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
+.label:hover {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em 2em;
+  background: #5974c7;
+  border: 2px solid #5974c7;
+  color: #ffffff !important;
+  border-radius: 0em;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}

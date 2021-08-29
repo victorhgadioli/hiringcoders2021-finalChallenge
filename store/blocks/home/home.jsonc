@@ -2,10 +2,34 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banner-home",
-      "services",
-      "flex-layout.row#departaments",
-      "flex-layout.row#brand",
-      "flex-layout.row#novo-na-acct"
+      "rich-text#titleSlogan",
+      "rich-text#textSlogan",
+      "link#about-us",
+      "trusteds",
+      "services"
     ]
+  },
+  "rich-text#titleSlogan": {
+    "props": {
+      "text": "### Buscamos constantemente a **liderança global** \n### quando se trata de **soluções para comércio digital**. ",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "title-slogan"
+    }
+  },
+  "rich-text#textSlogan": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n **Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.**",
+			"blockClass": "text-slogan"
+    }
+  },
+  "link#about-us": {
+    "props": {
+      "textAlignment": "CENTER",
+      "href": "/about-us/",
+      "label": "Saiba mais sobre nós"
+    }
   }
 }

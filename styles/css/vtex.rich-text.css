@@ -72,3 +72,37 @@
   margin-block-end: 0em;
   font-family: "Open Sans";
 }
+.strong--title-slogan {
+  color: #fcc200
+}
+
+.wrapper--title-slogan {
+  color: #040404;
+  font-size: 1.5rem;
+  line-height: 0.5em;
+  font-family: "Open Sans Condensed";
+}
+
+.wrapper--text-slogan {
+  font-size: 20px !important;
+  text-align: left;
+  line-height: 0.5px;
+  color: #040404;
+  padding-left:5%;
+  padding-right: 5%;
+  font-family: "Open Sans Condensed";
+}
+
+.wrapper--button-about-us {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1em;
+  padding: 1em 2em;
+  background: transparent;
+  border: 2px solid #5974c7;
+  color: #5974c7 !important;
+  -webkit-border-radius: 0em;
+  -moz-border-radius: 0em;
+  border-radius: 0em;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
