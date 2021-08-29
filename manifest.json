@@ -22,6 +22,7 @@
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
+    "vtex.store-media": "0.x",
     "vtex.menu": "2.x",
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",

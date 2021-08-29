@@ -1,0 +1,10 @@
+.imageElement--team-img{
+    border-radius: 50%;
+}
+
+
+@media (max-width: 576px){
+    .imageElement--img-mission-about-us{
+        width: 300px;
+}
+}

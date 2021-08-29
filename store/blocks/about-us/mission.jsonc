@@ -1,0 +1,52 @@
+{
+    /*#mission-about-us*/
+    "flex-layout.row#mission-about-us": {
+        "props": {
+            "blockClass": "mission-about-us",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "CENTER"
+        },
+        "children": [
+            "flex-layout.col#col-mission-about-us"
+        ]
+    },
+    "flex-layout.col#col-mission-about-us": {
+        "props": {
+            "blockClass": "col-wrapper-about-us"
+        },
+        "children": [
+            "rich-text#title-mission-about-us",
+            "flex-layout.row#content-mission-about-us"
+        ]
+    },
+    "rich-text#title-mission-about-us": {
+        "props": {
+            "text": "## Projetando o futuro do comércio digital",
+            "textColor": "link",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#content-mission-about-us": {
+        "props": {
+            "blockClass": "content-mission-about-us"
+        },
+        "children": [
+            "rich-text#text-mission-about-us",
+            "image#img-mission-about-us"
+        ]
+    },
+    "rich-text#text-mission-about-us": {
+        "props": {
+            "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia. \n\n A ACCT passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n\n Nós também temos o orgulho de dizer que a ACCT esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n\n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento.",
+            "blockClass": "text-mission-about-us"
+        }
+    },
+    "image#img-mission-about-us": {
+        "props": {
+            "maxWidth": 540,
+            "src": "assets/about-us/img-about-us.jpg",
+            "blockClass": "img-mission-about-us"
+        }
+    }
+}

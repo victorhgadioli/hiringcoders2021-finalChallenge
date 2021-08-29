@@ -1,0 +1,33 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "stack-layout#header-about-us",
+            "flex-layout.row#mission-about-us",
+            "flex-layout.row#values-about-us",
+            "flex-layout.row#trusted-by-about-us",
+            "flex-layout.row#team-about-us"
+        ]
+    },
+    /*#header-about-us*/
+    "stack-layout#header-about-us": {
+        "props": {
+            "blockClass": "header-about-us"
+        },
+        "children": [
+            "media#cover-header-about-us",
+            "rich-text#title-header-about-us"
+        ]
+    },
+    "media#cover-header-about-us": {
+        "props": {
+            "src": "assets/about-us/cover-about-us.jpg"
+        }
+    },
+    "rich-text#title-header-about-us": {
+        "props": {
+            "text": "# Sobre Nós_",
+            "textColor": "action-secondary",
+            "blockClass": "title-header-about-us"
+        }
+    }
+}
