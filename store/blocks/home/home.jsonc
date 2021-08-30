@@ -7,7 +7,9 @@
       "rich-text#textSlogan",
       "link#about-us",
       "trusteds",
-      "services"
+      "services",
+      "leadForm",
+      "leadtable"
     ]
   },
   "rich-text#titleSlogan": {
