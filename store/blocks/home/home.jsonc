@@ -13,9 +13,9 @@
   "rich-text#titleSlogan": {
     "props": {
       "text": "### Buscamos constantemente a **liderança global** \n### quando se trata de **soluções para comércio digital**. ",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"blockClass": "title-slogan"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-slogan"
     }
   },
   "rich-text#textSlogan": {
@@ -23,7 +23,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "\n **Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.**",
-			"blockClass": "text-slogan"
+      "blockClass": "text-slogan"
     }
   },
   "link#about-us": {

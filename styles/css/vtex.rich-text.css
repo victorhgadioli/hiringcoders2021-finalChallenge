@@ -86,7 +86,7 @@
 }
 
 .wrapper--text-slogan {
-  font-size: 20px !important;
+  font-size: 18px !important;
   text-align: left;
   line-height: 0.5px;
   color: #040404;
@@ -114,4 +114,10 @@
     line-height: 2em;
   }
 
+}
+@media(min-width: 1440px){
+  .wrapper--text-slogan {
+    width: 66vw;
+    padding: 0;
+  }
 }
