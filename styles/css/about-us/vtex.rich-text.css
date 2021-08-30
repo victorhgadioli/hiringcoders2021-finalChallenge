@@ -1,12 +1,30 @@
 .paragraph--text-mission-about-us{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
  }
 
+ .strong--title-values-about-us{
+   color: "muted-1";
+ }
 
+ .strong--title-header-about-us,
+ .strong--text-team-description-by-about-us {
+  color: #fcc200
+}
 
-@media (max-width: 1025px){
+.wrapper--text-team-description-by-about-us{
+  margin-bottom: 80px;
+}
+
+.wrapper--title-header-about-us{
+  color: #fff;
+  font-weight: 700;
+  margin-left: 19vw;
+  margin-top: 10vh;
+}
+
+@media (max-width: 576px){
     .paragraph--text-mission-about-us{
        text-align: center;
     }
-   
+
 }

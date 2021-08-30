@@ -14,19 +14,19 @@
       "blockClass": "header-about-us"
     },
     "children": [
-      "media#cover-header-about-us",
+      "image#cover-header-about-us",
       "rich-text#title-header-about-us"
     ]
   },
-  "media#cover-header-about-us": {
+  "image#cover-header-about-us": {
     "props": {
-      "src": "assets/about-us/cover-about-us.jpg"
+      "src": "assets/about-us/cover-about-us.jpg",
+      "blockClass": "img-header-about-us"
     }
   },
   "rich-text#title-header-about-us": {
     "props": {
-      "text": "# Sobre Nós_",
-      "textColor": "action-secondary",
+      "text": "## Sobre Nós**_**",
       "blockClass": "title-header-about-us"
     }
   }

@@ -5,14 +5,14 @@
 .menuContainerNav--main-menu {
   margin-left: -20%;
   margin-top: 3%;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .styledLinkContent--main-menu-item{
   text-transform: uppercase;
   color: #1d1d1d;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 .styledLinkContent--main-menu-item-inicio{
   text-transform: uppercase;

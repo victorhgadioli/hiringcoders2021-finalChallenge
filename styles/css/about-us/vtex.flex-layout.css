@@ -1,21 +1,53 @@
-.flexRow--values-about-us{
-    margin-top: 100px;
+.flexRow--mission-about-us,
+.flexRow--values-about-us,
+.flexRow--team-about-us{
+  margin: 0 auto;
+    padding: 0 1.5rem;
 }
 .flexRowContent--content-mission-about-us{
     align-items: center;
     justify-content: center;
 }
+.flexRowContent--content-values-about-us{
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
 
-@media (max-width: 1024px){
+.flexRow--values-about-us{
+  margin-bottom: 100px;
+}
+
+.flexRow--team-about-us{
+  margin-bottom: 140px;
+}
+
+.flexCol--content-child-values-about-us{
+  max-height: 222px;
+  max-width: 212px;
+}
+
+@media (max-width: 1440px){
+  .flexRowContent--content-mission-about-us{
+    flex-direction: column;
+}
+}
+
+@media(min-width: 1440px){
+  .flexRow--mission-about-us,
+  .flexRow--values-about-us,
+  .flexRow--team-about-us{
+    width: 64vw;
+}
+}
+
+@media (max-width: 1440px){
     .flexRow--mission-about-us,
     .flexRow--values-about-us,
     .flexRow--team-about-us{
         padding: 0 1.5rem;
     }
-    .flexRowContent--content-mission-about-us{
-        flex-direction: column;
-    }  
-    
+
 }
 
 

@@ -8,8 +8,8 @@ export const TrustedsContainer = styled.section`
   padding-bottom: 6rem;
 `
 
-export const Title = styled.h3`
-  font-family: "Open Sans Condensed";
+export const Title = styled.h2`
+  font-family: "Open Sans Condensed",sans-serif;
   font-weight: 700;
   font-size: 2rem;
   color: #040404;

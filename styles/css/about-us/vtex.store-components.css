@@ -1,10 +1,23 @@
+.imageElement--img-header-about-us{
+  width: 100%;
+  height: 300px;
+}
 .imageElement--team-img{
     border-radius: 50%;
 }
 
-
 @media (max-width: 576px){
     .imageElement--img-mission-about-us{
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+}
+}
+
+@media (min-width: 1441px){
+  .imageElement--img-mission-about-us{
+    margin-left: 57px;
 }
 }

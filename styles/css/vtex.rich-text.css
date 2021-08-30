@@ -37,7 +37,7 @@
   font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 1px;
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans Condensed",sans-serif;
   line-height: 1.3;
 }
 .paragraph--Brasil-end-1 {
@@ -54,7 +54,7 @@
   box-sizing: inherit;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  font-family: "Open Sans";
+  font-family: "Open Sans",sans-serif;
 }
 .paragraph--Espanha-end {
   font-size: 0.9rem !important;
@@ -62,7 +62,7 @@
   box-sizing: inherit;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  font-family: "Open Sans";
+  font-family: "Open Sans",sans-serif;
 }
 .paragraph--EstadosUnidos-end {
   font-size: 0.9rem !important;
@@ -70,7 +70,7 @@
   box-sizing: inherit;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 .strong--title-slogan {
   color: #fcc200
@@ -80,7 +80,9 @@
   color: #040404;
   font-size: 1.5rem;
   line-height: 0.5em;
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans Condensed",sans-serif;
+  margin-top: 140px;
+  margin-bottom: 50px;
 }
 
 .wrapper--text-slogan {
@@ -90,7 +92,7 @@
   color: #040404;
   padding-left:5%;
   padding-right: 5%;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .wrapper--button-about-us {
@@ -105,4 +107,11 @@
   -moz-border-radius: 0em;
   border-radius: 0em;
   text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
+
+@media (max-width: 1024px){
+  .wrapper--title-slogan {
+    line-height: 2em;
+  }
+
 }
