@@ -22,6 +22,9 @@
   - [Corebiz](https://www.corebiz.ag/pt/)
 </p>
 
+### Repositório do projeto
+https://github.com/victorhgadioli/hiringcoders2021-finalChallenge-main
+
 ### A temática proposta para o Grupo 25 foi a ACCT</br>
 #### Front-End
 Neste front-end teremos a temática da ACCT, com logo, cores, a missão e valores da ACCT em uma página de **sobre**
