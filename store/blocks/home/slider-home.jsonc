@@ -9,11 +9,19 @@
       "images": [
         {
           "image": "assets/slides/Slide1.png",
-          "description": "something something"
+          "description": "ACCT GLOBAL"
         },
         {
           "image": "assets/slides/Slide2.png",
-          "description": "something something"
+          "description": "ACCT GLOBAL"
+        },
+        {
+          "image": "assets/slides/Slide3.png",
+          "description": "ACCT GLOBAL"
+        },
+        {
+          "image": "assets/slides/Slide4.png",
+          "description": "ACCT GLOBAL"
         }
       ]
     }
