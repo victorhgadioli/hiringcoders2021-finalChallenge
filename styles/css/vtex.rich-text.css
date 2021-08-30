@@ -46,7 +46,7 @@
   box-sizing: inherit;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  font-family: "Open Sans";
+  font-family: "Open Sans",sans-serif;
 }
 .paragraph--Brasil-end-2 {
   font-size: 0.9rem !important;
